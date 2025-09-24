@@ -7,7 +7,7 @@ Hver oppgave får et unikt id-nummer (UUID).
 Den har tittel, beskrivelse, frist (dato) og status (Ikke startet, Pågår, Fullført).
 
 # enum Status
-Dette er listen over de tre mulige statusene:
+22/09/25 Dette er listen over de tre mulige statusene:
  - Ikke startet
  - Pågår
  - Fullført
@@ -33,3 +33,6 @@ brukes slik at vi kan sende den nye oppgaven tilbake til hovedlisten.
 
 # @Environment(\.dismiss)
 gjør at skjermen kan lukkes.
+
+# Bakgrunn
+24/09/25 Har brukt ZStack å lagt inn en grandient bakgrunn til ToDo-appen
