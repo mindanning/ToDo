@@ -28,8 +28,8 @@ Her kan brukeren endre:
  - Status
 Skjermen er bygget opp som et skjema (Form).
 
-// Midlertidige variabler som lagrer det brukeren skriver inn i skjemaet
- @State private var tittel: String = ""
-    @State private var beskrivelse: String = ""
-    @State private var frist: Date = .now
-    @State private var status: Status = .ikkeStartet
+# @Binding
+brukes slik at vi kan sende den nye oppgaven tilbake til hovedlisten.
+
+# @Environment(\.dismiss)
+gjør at skjermen kan lukkes.
